@@ -62,6 +62,7 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.8'
         compile ":asset-pipeline:1.9.9"
         compile ":jasper:1.11.0"
+        compile ":export:1.5"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.6.1" // or ":hibernate:3.6.10.18"
@@ -69,7 +70,8 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.11.1"
         //runtime ":angular.min.js"
         runtime ":angularjs-resources:1.3.15"
-        runtime ":jasper:latest"
+        runtime ":jasper:1.11.0" 
+
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"
